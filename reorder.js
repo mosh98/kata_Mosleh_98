@@ -36,6 +36,6 @@ function reorder(text){
     return upper_case_list.concat(lower_case_list,numers_list).join('')
 }
 
-console.log(reorder("m11oveMENT"))
+//console.log(reorder("m11oveMENT"))
 
 
