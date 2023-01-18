@@ -40,10 +40,6 @@ function bestFriend(sentence, charA, charB){
         return true
     }
 
-
-
-
-
     return false
 }
 
