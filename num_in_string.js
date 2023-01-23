@@ -38,8 +38,8 @@ function numInStr(listOfString) {
 
 
 
-/*console.log(numInStr(["1a", "a", "2b", "b"]))
+console.log(numInStr(["1a", "a", "2b", "b"]))
 console.log(numInStr(numInStr(["abc", "abc10"]) ))
-console.log(numInStr(numInStr(["abc", "ab10c", "a10bc", "bcd"])))*/
+console.log(numInStr(numInStr(["abc", "ab10c", "a10bc", "bcd"])))
 console.log(numInStr(numInStr(["this is a test", "test1"])))
 console.log(numInStr(numInStr(["who needs numbers", "not me"])))
