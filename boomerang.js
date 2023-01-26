@@ -1,6 +1,8 @@
 
 
 function countBoomerangs( listOfNum ){
+
+    //Basic controll checking
     if(listOfNum.length <3){
         return new Error('List too small')
     }
@@ -12,17 +14,19 @@ function countBoomerangs( listOfNum ){
 
     let sum = 0
 
+    //find boomerangs
     for (let i = 0; i< listOfNum.length - 2; i++){
-        let current = listOfNum[i]
-        // if current is samme as current + 2 && if cu{rrent is not same as current+1
 
+        let current = listOfNum[i] //current number
 
+        // if current (number) is samme as current + 2
         if( current ==  listOfNum[i+2] ){
+
+            //if current(number) is not same as current+1
             if(current != listOfNum[i+1]){
                 sum += 1
             }
         }
-
     }
 
     return sum
