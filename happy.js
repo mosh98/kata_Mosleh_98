@@ -37,8 +37,8 @@ function happyAlgorithm( n, c=0){
 
 
 
-console.log(happyAlgorithm(139));
-console.log(happyAlgorithm(67));
-console.log(happyAlgorithm(1));
-console.log(happyAlgorithm(89));
+console.log(happyAlgorithm(139)); //HAPPY 5
+console.log(happyAlgorithm(67)); //SAD 7 --> SAD is suppose to be 10
+console.log(happyAlgorithm(1)); //HAPPY 1
+console.log(happyAlgorithm(89)); // SAD 5 --> SAD is suppose to be 8
 
